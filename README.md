@@ -105,25 +105,6 @@ python 3d.py
 🔬 High precision matching
 
 
-Architecture
-Capture Layer
- ├── NVFBC (GPU)
- ├── DXCAM (120 FPS)
- └── MSS (Fallback)
-
-Processing Layer
- ├── OpenCV
- ├── PyTorch (CUDA)
- ├── YOLOv8
- └── SciPy
-
-Analysis Layer
- ├── 3D Geometry
- ├── Feature Extraction
- ├── Matching Engine
-
-Visualization Layer
- └── OpenGL Viewer
 💡 Use Cases
 💎 Diamond / gemstone analysis
 🧩 Fragment reconstruction
